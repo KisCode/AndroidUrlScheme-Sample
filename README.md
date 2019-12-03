@@ -1,4 +1,5 @@
 # Android URL Scheme- mock OAuth2 login
+![image](https://github.com/KisCode/Scheme/blob/master/wechat.png)
 # Android URL scheme 定义
 scheme是android中的一种页面内跳转协议，方便app页面的内的跳转
 
