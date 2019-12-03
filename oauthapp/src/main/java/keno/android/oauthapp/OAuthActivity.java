@@ -35,10 +35,9 @@ public class OAuthActivity extends AppCompatActivity implements View.OnClickList
             int port = uri.getPort();
 
             //参数部分
-            String accout = uri.getQueryParameter("account");
-            String id = uri.getQueryParameter("id");
+            String appName = uri.getQueryParameter("appName");
 
-            tvContent.setText(accout + "\t" + id);
+            tvContent.setText(appName + "\t 请求授权登录");
         }
     }
 
